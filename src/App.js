@@ -4,7 +4,8 @@ import AddStudent from './components/AddStudent';
 import SearchStudent from './components/SearchStudent';
 import DeleteStudent from './components/DeleteStudent';
 import ViewStudent from   './components/ViewStudent';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import ViewAll from './components/ViewStudent';
 function App()
  {
   return (
